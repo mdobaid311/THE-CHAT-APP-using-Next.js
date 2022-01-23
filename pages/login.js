@@ -1,7 +1,7 @@
 import { Button } from "@mui/material";
 import Head from "next/head";
 import styled from "styled-components";
-import { auth ,provider} from "../firebase";
+import { auth, provider } from "../firebase";
 
 const Login = () => {
   const signIn = () => {
@@ -17,6 +17,7 @@ const Login = () => {
         <Button variant="outlined" onClick={signIn}>
           Sign in with google
         </Button>
+        <h6>By NoYes</h6>
       </LoginContainer>
     </Container>
   );
