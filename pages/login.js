@@ -17,7 +17,7 @@ const Login = () => {
         <Button variant="outlined" onClick={signIn}>
           Sign in with google
         </Button>
-        <h6>By NoYes</h6>
+        <h6>By No-Name</h6>
       </LoginContainer>
     </Container>
   );
